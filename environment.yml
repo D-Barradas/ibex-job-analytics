@@ -1,4 +1,4 @@
-name: null
+name: rapids_env
 
 channels:
   - blazingsql
@@ -8,8 +8,8 @@ channels:
   - defaults
 
 dependencies:
-  - blazingsql=0.13
-  - cudatoolkit=10.1
+  - dask-sql
+  - cudatoolkit=11.2
   - cudnn=7.6
   - dask=2.14
   - datashader=0.10
@@ -19,16 +19,16 @@ dependencies:
   - matplotlib=3.2
   - nbdime=1.1
   - nodejs=13
-  - numba=0.48
-  - pandas=0.25
+  - numba=0.58
+  - pandas=1.4
   - panel=0.6
   - pip=20.0
   - pip:
     - -r file:requirements.txt
   - pyarrow=0.15
-  - python=3.7
+  - python=3.9
   - python-flatbuffers=1.11
-  - scikit-image=0.16
-  - scikit-learn=0.22
-  - rapids=0.13
+  - scikit-image=0.19
+  - scikit-learn=1.1
+  - rapids=22.08
   - xgboost=1.0
