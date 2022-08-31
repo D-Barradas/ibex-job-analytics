@@ -1,34 +1,32 @@
 name: rapids_env
 
 channels:
-  - blazingsql
   - rapidsai
   - nvidia
   - conda-forge
   - defaults
 
 dependencies:
-  - dask-sql
-  - cudatoolkit=11.2
-  - cudnn=7.6
-  - dask=2.14
-  - datashader=0.10
-  - ipython-sql=0.3
-  - jupyterlab=1.2
-  - jupyterlab-git=0.9
-  - matplotlib=3.2
-  - nbdime=1.1
-  - nodejs=13
-  - numba=0.58
-  - pandas=1.4
-  - panel=0.6
-  - pip=20.0
+  - dask-sql=2022.1.0
+  - cudatoolkit=11.*
+  - dask=2022.7.0
+  - datashader=0.14.1
+  - ipython-sql=0.3.9
+  - jupyterlab=3.4.5
+  - jupyterlab-git=0.39.1
+  - matplotlib=3.5.2
+  - nbdime=2.0.0
+  - nodejs=18.8.0
+  - numba=0.55.1
+  - pandas=1.4.3
+  - panel=0.13.1
+  - pip=22.1.2
   - pip:
     - -r file:requirements.txt
-  - pyarrow=0.15
-  - python=3.9
-  - python-flatbuffers=1.11
-  - scikit-image=0.19
-  - scikit-learn=1.1
+  - pyarrow=8.0.0
+  - python=3.8
+  - python-flatbuffers=2.0
+  - scikit-image=0.19.2
+  - scikit-learn=1.1.1
   - rapids=22.08
-  - xgboost=1.0
+  - xgboost=1.5.0
