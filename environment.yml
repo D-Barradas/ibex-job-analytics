@@ -10,12 +10,12 @@ dependencies:
   - rapids=22.08
   - cudatoolkit=11.5
   - python=3.9
-  - dask-sql
-  - jupyterlab
-  - dash
-  - graphistry
-  - pycaret
-  - xarray-spatial
+  - dask-sql=2022.8.0
+  - jupyterlab=3.4.5
+  - dash=2.6.1
+  - graphistry=0.27.1
+  - pycaret=2.2.3
+  - xarray-spatial=0.3.5
   - pip=22.1.2
   - pip:
     - -r file:requirements.txt
