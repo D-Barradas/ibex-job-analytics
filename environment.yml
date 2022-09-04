@@ -17,3 +17,5 @@ dependencies:
   - pycaret=2.2.3
   - xarray-spatial=0.3.5
   - pip=22.1.2
+  - pip :
+    - requirements.txt
