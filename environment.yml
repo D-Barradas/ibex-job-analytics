@@ -8,7 +8,7 @@ channels:
 
 dependencies:
   - rapids=22.08
-  - cudatoolkit=11.5
+  - cudatoolkit=11.2
   - python=3.9
   - dask-sql=2022.8.0
   - jupyterlab=3.4.5
