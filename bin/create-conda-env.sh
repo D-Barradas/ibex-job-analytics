@@ -1,4 +1,6 @@
 #!/bin/bash --login
+# entire script fails if a single command fails
+set -e
 
 # create the conda environment
 export ENV_PREFIX=$PWD/env
