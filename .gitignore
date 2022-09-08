@@ -1,7 +1,8 @@
 # the .out and *.err files create by slrum in the current directory]
 bin/*.out
 bin/*.err
-
+env/
+dcgm/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,33 @@
+name: rapids_tf2
+
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.*
+  - tensorflow=2.*
+  - rapids=22.*
+  - cudatoolkit=11.2
+  - dask-sql=2022.*
+  - jupyterlab
+  - dash
+  - graphistry
+  - pycaret
+  - xarray-spatial
+  - jupyterlab-nvdashboard
+  - jax
+  - jaxlib
+  - ray-tune
+  - imbalanced-learn
+  - jupyterlab-git
+  - jupyterlab-lsp
+  - xeus-python
+  - hvplot
+  - s3fs
+  - openssl
+  - gcsfs
+  - pip=22.1.2
+
