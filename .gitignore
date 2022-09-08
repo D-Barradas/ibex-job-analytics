@@ -3,6 +3,7 @@ bin/*.out
 bin/*.err
 env/
 dcgm/
+notebooks/nyctaxi/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
